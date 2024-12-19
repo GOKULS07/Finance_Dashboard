@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: #4bba8e; /* Changed to green to match the screenshot */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-heading {
+  color: #fff; /* Kept white for the heading */
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+.navbar-link {
+  color: #fff; /* Changed to white to match the logout text */
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: #e3e3e3; /* Changed to a light grey when hovered */
+  transition: all 0.3s;
+}
